@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="1280px"
+    android:layout_height="800px"
+    android:id="@+id/noti_sound_layout">
+
+    <RelativeLayout
+        android:layout_width="520px"
+        android:layout_height="320px"
+        android:background="@drawable/popup_1"
+        android:layout_centerInParent="true">
+<!--
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="25px"
+            android:layout_marginRight="40px"
+            android:background="@drawable/btn_close_yellow"/>
+-->
+        <TextView
+            android:id="@+id/noti_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20px"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:paddingLeft="20px"
+            android:paddingRight="20px"
+            android:singleLine="true"
+            android:textColor="#b59f64"
+            android:textSize="30px"
+            android:text="@string/noti_guide"
+            app:fontFamily="@font/notosanscjkkr_bold"
+            android:fontFamily="@font/notosanscjkkr_bold"/>
+
+        <ImageView android:layout_width="400px"
+            android:layout_height="2px"
+            android:background="#b59f64"
+            android:layout_marginTop="80px"
+            android:layout_centerHorizontal="true"/>
+
+        <ImageView
+            android:id="@+id/earphones"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:background="#b59f64"
+            android:paddingLeft="20px"
+            android:paddingRight="20px"
+            android:src="@drawable/earjack_back" />
+
+       <!--
+        <TextView
+            android:id="@+id/noti_message"
+            android:layout_width="350px"
+            android:layout_height="250px"
+            android:textColor="#4c545b"
+            android:fontFamily="@font/notosanscjkkr_medium"
+            app:fontFamily="@font/notosanscjkkr_medium"
+            android:includeFontPadding="false"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:textSize="70px"
+            android:layout_marginTop="160px"
+            android:text="@string/message_error"/>
+        -->
+
+    </RelativeLayout>
+</RelativeLayout>

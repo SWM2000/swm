@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/noti_layout"
+    android:layout_width="850px"
+    android:layout_height="480px"
+    android:background="@drawable/popup_1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70px"
+        android:fontFamily="@font/notosanscjkkr_medium"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:text="@string/no_service_title"
+        android:textColor="#b59f64"
+        android:textSize="50px"
+        app:fontFamily="@font/notosanscjkkr_medium" />
+
+    <ImageView
+        android:layout_width="700px"
+        android:layout_height="2px"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180px"
+        android:background="#b59f64" />
+
+    <TextView
+        android:layout_width="750px"
+        android:layout_height="250px"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="190px"
+        android:fontFamily="@font/notosanscjkkr_medium"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:text="@string/no_service_text"
+        android:textColor="#4c545b"
+        android:textSize="35px"
+        app:fontFamily="@font/notosanscjkkr_medium" />
+</RelativeLayout>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Copyright (C) 2007 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+
+    <string-array name="app_package">
+        <item>com.korail.motrex.launcher</item>
+        <item>com.korail.motrex.setting</item>
+        <item>com.korail.motrex.webapp</item>
+        <item>com.korail.motrex.rtsp</item>
+    </string-array>
+
+
+    <string-array name="my_string_array">
+        <item>0|Item 1</item>
+        <item>1|Item 4</item>
+        <item>2|Item 3</item>
+        <item>3|Item 42</item>
+        <item>4|Item 17</item>
+    </string-array>
+
+    <string-array name="ip_list">
+        <item>141|1A</item>
+        <item>142|1B</item>
+        <item>143|1C</item>
+        <item>144|1D</item>
+
+        <item>131|2A</item>
+        <item>132|2B</item>
+        <item>133|2C</item>
+        <item>134|2D</item>
+
+        <item>121|3A</item>
+        <item>122|3B</item>
+        <item>123|3C</item>
+        <item>124|3D</item>
+
+        <item>111|4A</item>
+        <item>112|4B</item>
+        <item>113|4C</item>
+        <item>114|4D</item>
+
+        <item>101|5A</item>
+        <item>102|5B</item>
+        <item>103|5C</item>
+        <item>104|5D</item>
+
+        <item>91|6A</item>
+        <item>92|6B</item>
+        <item>93|6C</item>
+        <item>94|6D</item>
+
+        <item>81|7A</item>
+        <item>82|7B</item>
+        <item>83|7C</item>
+        <item>84|7D</item>
+
+        <item>71|8A</item>
+        <item>72|8B</item>
+        <item>73|8C</item>
+        <item>74|8D</item>
+
+        <item>61|9A</item>
+        <item>62|9B</item>
+        <item>63|9C</item>
+        <item>64|9D</item>
+
+        <item>51|10A</item>
+        <item>52|10B</item>
+        <item>53|10C</item>
+        <item>54|10D</item>
+
+        <item>41|11A</item>
+        <item>42|11B</item>
+        <item>43|11C</item>
+        <item>44|11D</item>
+
+        <item>31| </item>
+        <item>32| </item>
+        <item>33|12C</item>
+        <item>34|12D</item>
+
+        <item>21| </item>
+        <item>22| </item>
+
+        <item>11| </item>
+        <item>12| </item>
+        <item>13| </item>
+        <item>14| </item>
+
+    </string-array>
+
+    <string-array name="re_ip_list">
+        <item>141| </item>
+        <item>142| </item>
+        <item>143| </item>
+        <item>144| </item>
+
+        <item>131| </item>
+        <item>132| </item>
+        <item>133| </item>
+        <item>134| </item>
+
+        <item>121|1B</item>
+        <item>122|1A</item>
+        <item>123|1D</item>
+        <item>124|1C</item>
+
+        <item>111|2B</item>
+        <item>112|2A</item>
+        <item>113|2D</item>
+        <item>114|2C</item>
+
+        <item>101|3B</item>
+        <item>102|3A</item>
+        <item>103|3D</item>
+        <item>104|3C</item>
+
+        <item>91|4B</item>
+        <item>92|4A</item>
+        <item>93|4D</item>
+        <item>94|4C</item>
+
+        <item>81|5B</item>
+        <item>82|5A</item>
+        <item>83|5D</item>
+        <item>84|5C</item>
+
+        <item>71|6B</item>
+        <item>72|6A</item>
+        <item>73|6D</item>
+        <item>74|6C</item>
+
+        <item>61|7B</item>
+        <item>62|7A</item>
+        <item>63|7D</item>
+        <item>64|7C</item>
+
+        <item>51|8B</item>
+        <item>52|8A</item>
+        <item>53|8D</item>
+        <item>54|8C</item>
+
+        <item>41|9B</item>
+        <item>42|9A</item>
+        <item>43|9D</item>
+        <item>44|9C</item>
+
+        <item>31|10B</item>
+        <item>32|10A</item>
+        <item>33|10D</item>
+        <item>34|10C</item>
+
+        <item>21|11D</item>
+        <item>22|11C </item>
+
+        <item>11|11A</item>
+        <item>12|11B</item>
+        <item>13|12C</item>
+        <item>14|12D</item>
+    </string-array>
+
+</resources>

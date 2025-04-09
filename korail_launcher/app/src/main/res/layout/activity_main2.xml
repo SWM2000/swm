@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg">
+
+    <ImageButton
+        android:id="@+id/btn_img_02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="26px"
+        android:layout_marginRight="21px"
+        android:background="@drawable/ci"
+        android:onClick="btnClick" />
+
+    <TextView
+        android:id="@+id/text_ip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="343px"
+        android:layout_marginTop="76px"
+        android:fontFamily="@font/notosanscjkkr_medium"
+        android:gravity="left"
+        android:includeFontPadding="false"
+        android:textColor="#645f52"
+        android:textSize="144px"
+        android:onClick="btnClick"
+        app:fontFamily="@font/notosanscjkkr_medium" />
+
+    <TextView
+        android:id="@+id/text_welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/text_ip"
+        android:layout_marginTop="260px"
+        android:fontFamily="@font/notosanscjkkr_bold"
+        android:gravity="left"
+        android:includeFontPadding="false"
+        android:text="@string/welcome_01"
+        android:textColor="#b59f64"
+        android:textSize="55px"
+        app:fontFamily="@font/notosanscjkkr_bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/text_ip"
+        android:layout_marginLeft="10px"
+        android:layout_marginTop="344px"
+        android:fontFamily="@font/notosanscjkkr_regular"
+        android:gravity="left"
+        android:includeFontPadding="false"
+        android:text="@string/welcome_02"
+        android:textColor="#b59f64"
+        android:textSize="30px"
+        app:fontFamily="@font/notosanscjkkr_regular" />
+
+    <TextView
+        android:id="@+id/text_date_01"
+        android:layout_width="252px"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="65px"
+        android:fontFamily="@font/notosanscjkkr_regular"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:textColor="#becddc"
+        android:textSize="22px"
+        app:fontFamily="@font/notosanscjkkr_regular" />
+
+    <TextView
+        android:id="@+id/text_date_02"
+        android:layout_width="252px"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="104px"
+        android:fontFamily="@font/notosanscjkkr_regular"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:textColor="#becddc"
+        android:textSize="49px"
+        app:fontFamily="@font/notosanscjkkr_regular" />
+
+    <!--<TextView
+        android:id="@+id/text_audio_channel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30px"
+        android:layout_marginRight="50px"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:gravity="left"
+        android:textColor="#4C545B"
+        android:textSize="22px"
+        android:fontFamily="@font/notosanscjkkr_regular"
+        android:includeFontPadding="false"
+        app:fontFamily="@font/notosanscjkkr_regular"/>-->
+
+    <Button
+        android:id="@+id/btn_01"
+        android:layout_width="252px"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="230px"
+        android:background="#00000000"
+        android:drawableTop="@drawable/btn_rtsp_bg"
+        android:drawablePadding="14px"
+        android:fontFamily="@font/notosanscjkkr_regular"
+        android:includeFontPadding="false"
+        android:onClick="btnClick"
+        android:text="@string/main_btn_text_01"
+        android:textAllCaps="false"
+        android:textColor="@color/btn_text_color"
+        android:textSize="18px"
+        app:fontFamily="@font/notosanscjkkr_regular" />
+
+    <Button
+        android:id="@+id/btn_02"
+        android:layout_width="252px"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="542px"
+        android:background="#00000000"
+        android:drawableTop="@drawable/btn_internet_bg"
+        android:drawablePadding="14px"
+        android:fontFamily="@font/notosanscjkkr_regular"
+        android:includeFontPadding="false"
+        android:onClick="btnClick"
+        android:text="@string/main_btn_text_03"
+        android:textAllCaps="false"
+        android:textColor="@color/btn_text_color"
+        android:textSize="18px"
+        app:fontFamily="@font/notosanscjkkr_regular" />
+
+    <Button
+        android:id="@+id/btn_03"
+        android:layout_width="252px"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="387px"
+        android:background="#00000000"
+        android:drawableTop="@drawable/btn_youtube_bg"
+        android:drawablePadding="14px"
+        android:fontFamily="@font/notosanscjkkr_regular"
+        android:includeFontPadding="false"
+        android:onClick="btnClick"
+        android:text="@string/main_btn_text_02"
+        android:textAllCaps="false"
+        android:textColor="@color/btn_text_color"
+        android:textSize="18px"
+        app:fontFamily="@font/notosanscjkkr_regular" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20px"
+        android:layout_marginBottom="83px"
+        android:background="@drawable/dv" />
+
+    <ImageButton
+        android:id="@+id/btn_04"
+        android:layout_width="80px"
+        android:layout_height="80px"
+        android:layout_marginLeft="143px"
+        android:layout_marginTop="705px"
+        android:background="#00000000"
+        android:onClick="btnClick"
+        android:src="@drawable/setting"
+        android:textSize="28dp"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/btn_05"
+        android:layout_width="152px"
+        android:layout_height="83px"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="50px"
+        android:background="#00000000"
+        android:fontFamily="@font/notosanscjkkr_regular"
+        android:gravity="center"
+        android:onClick="btnClick"
+        android:text="@string/main_btn_text_05"
+        android:textAllCaps="false"
+        android:textColor="@color/btn_eng_color"
+        android:textSize="30px"
+        app:fontFamily="@font/notosanscjkkr_regular" />
+
+    <TextView
+        android:id="@+id/text_call_crew"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/btn_05"
+        android:fontFamily="@font/notosanscjkkr_bold"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:includeFontPadding="false"
+        android:text="@string/trainman_call_text"
+        android:textColor="#b59f64"
+        android:textSize="55px"
+        android:visibility="gone"
+        app:fontFamily="@font/notosanscjkkr_bold" />
+
+    <ImageView
+        android:id="@+id/hidden_btn_01"
+        android:layout_width="100px"
+        android:layout_height="100px"
+        android:layout_marginLeft="253px"
+        android:background="#00000000"
+        android:onClick="btnClick" />
+
+    <ImageView
+        android:id="@+id/hidden_btn_02"
+        android:layout_width="100px"
+        android:layout_height="100px"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="253px"
+        android:background="#00000000"
+        android:onClick="btnClick" />
+
+    <ImageView
+        android:id="@+id/hidden_btn_03"
+        android:layout_width="100px"
+        android:layout_height="100px"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:background="#00000000"
+        android:onClick="btnClick" />
+
+    <ImageView
+        android:id="@+id/hidden_btn_04"
+        android:layout_width="100px"
+        android:layout_height="100px"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:background="#00000000"
+        android:onClick="btnClick" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="150px"
+        android:layout_height="50px"
+        android:layout_alignTop="@id/btn_img_02"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="150px"
+        android:layout_marginRight="50px"
+        android:text="승무원 호출"
+        android:textSize="18px"
+        android:visibility="gone"
+        android:onClick="btnClick" />
+</RelativeLayout>

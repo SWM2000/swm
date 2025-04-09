@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">korail_launcher</string>
+    <string name="welcome_01">Welcome aboard</string>
+    <string name="welcome_02">탑승을 환영 합니다.</string>
+    <string name="main_btn_text_01">News &amp; TV Shows</string>
+    <string name="main_btn_text_02">YouTube</string>
+    <string name="main_btn_text_03">Internet</string>
+    <string name="main_btn_text_04">Setting</string>
+    <string name="main_btn_text_05">한국어</string>
+    <string name="trainman_call_text">Crew call in progress.</string>
+    <string name="audio_channel_text">Channel &lt;%d&gt; for listening to the VOD.</string>
+    <string name="no_service_title">Service Not Available</string>
+    <string name="no_service_text">We\&apos;re sorry.\nThe service you requested is under maintenance.\nWe will offer the service shortly.</string>
+    <string name="main_btn_text_06">Games</string>
+    <string name="main_btn_text_07">Mirroring</string>
+    <string name="main_btn_text_08">USB Music</string>
+    <string name="noti_title">Notification</string>
+    <string name="noti_guide">Guide to Wired Earphones</string>
+    <string name="message_error">Error</string>
+</resources>

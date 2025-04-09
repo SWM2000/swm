@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="590px"
+    android:layout_height="300px"
+    android:layout_marginBottom="50px"
+    android:background="@drawable/popup_1">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="49px"
+        android:background="@drawable/ci_copy" />
+
+    <EditText
+        android:id="@+id/edit_pass"
+        android:layout_width="263px"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="111px"
+        android:layout_marginTop="160px"
+        android:background="@null"
+        android:drawableBottom="@drawable/input"
+        android:hint="관리자 비밀번호"
+        android:inputType="textPassword"
+        android:textColor="#111111"
+        android:textSize="24px" />
+
+
+    <TextView
+        android:id="@+id/btn01"
+        android:layout_width="110px"
+        android:layout_height="50px"
+        android:layout_marginLeft="395px"
+        android:layout_marginTop="156px"
+        android:background="@drawable/btn_bg"
+        android:gravity="center"
+        android:text="확인"
+        android:textColor="#bacad9"
+        android:textSize="22px" />
+
+</RelativeLayout>

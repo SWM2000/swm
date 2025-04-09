@@ -1,0 +1,19 @@
+@startuml
+
+autonumber
+
+participant MainActivity
+participant VOD
+participant Youtube
+participant Internet
+participant HiddenMenu
+participant LanguageManager
+
+MainActivity -> VOD : start VOD
+MainActivity -> Youtube : start Youtube
+MainActivity -> Internet : start Internet
+MainActivity -> HiddenMenu : "start HiddenMenu : password - 12345678"
+MainActivity -> LanguageManager : change Language
+MainActivity <-- LanguageManager : language changed
+
+@enduml
